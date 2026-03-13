@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>
+            Decrement
+        </title>
+    </head>
+<body>
+    <?php
+        $a=11;
+        do
+        {
+            echo"\t".$a;
+            $a--;
+        }while($a>=5);
+    ?>
+</body>
+</html>
